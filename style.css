@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primario:#e9f9d9;
+    --bg-primario:#ffffff;
+    --text-size: 1rem;
+    --color-text:#558f53;
+}
+
+body {
+    background-color: var(--bg-primario);
+    color:var(--color-primario);
+    font-size: var(--text-size);
+    margin:0;
+    padding:0;
+    height: 100vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+nav {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:var(--color-primario);
+    border: 2px;
+    border:solid;
+
+}
+
+.nav__logo {
+    justify-content: center;
+    margin-left: 490px;
+    border: solid;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    border: solid;
+}
+
+ul a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.hero-image {
+    background-image: linear-gradient(
+    rgba(237, 255, 213, 0.7),
+    rgba(255, 255, 255, 0.7)),
+    url("img/banner.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image .hero-text {
+    color:var(--color-text);
+    text-align: center;
+}
+
+.hero-image .hero-text h1 {
+    font-size:50px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-top: 20px;
+}
+
+.hero-text p {
+    font-size:35px;
+    font-weight:500;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.hero-image .hero-btn {
+    text-decoration:none;
+    color:var(--color-text);
+    background: var(--color-primario);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hero-image .hero-btn:hover {
+    background:var(--bg-primario);
+    color:var(--color-text);
+}
