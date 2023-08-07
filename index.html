@@ -9,28 +9,37 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
     <!--Barra de navegación-->
     <nav>
-        <img class="nav__logo" src="https://via.placeholder.com/50" alt="logo"/>
-        <ul class="nav">
-            <li class="nav__link"><a href="#">Home</a></li>
-            <li class="nav__link"><a href="#">About Us</a></li>
-            <li class="nav__link"><a href="#">Shop</a></li>
+        <img class="nav__logo" src="./Tropical Care.png" alt="logo"/>
+        <input type="checkbox" id="check">
+        <label for="check" class="bar-btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="nav-menu">
+            <li><a class="#hero-image" href="#">Home</a></li>
+            <li><a href="#footer">About Us</a></li>
+            <li><a href="#cards__title">Shop</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
+
     </nav>
+
+
     <!--Hero imagen-->
-    <div class="hero-image">
+    <div class="hero-image" id="hero-image">
         <div class="hero-text">
             <h1>Tropical Care, created by nature.</h1>
             <p>Make your skin breath of confidence</p>
-            <a href="#" class="hero-btn">Shop</a>
+            <a href="#cards__title" class="hero-btn">Shop</a>
         </div>
     </div>
     <!--Cards Información-->
-    <section class=cards__title>
-        <h1 class="cards__title1">Try our new Fruit Collection.</h1>
+    <section class=cards__title  id="cards__title">
+        <h1 class="cards__title1">Try our Fruit Collection.</h1>
         <p class="cards__title2">Each one has properties for different needs. Choose the perfect one for you</p>
     </section>
     <section class="container">        
@@ -84,7 +93,20 @@
         </div>
     </section>
 
-    <div class="footer">
+    <!--Product benefits-->
+    <section class="benefits">
+        <div class="ourproducts-title">
+        <h1>Benefits of our products</h1>
+        </div>
+        <div class="ourproducts-text">
+        <p>Our creams are created with the purest ingredients extracted from nature.
+            All our products are vegan and respect the environment.
+            You can have your ideal skin but also consume a natural brand that does not harm the planet, taking care of its flora and fauna.</p>
+        </div>
+    </div></section>
+
+
+    <div class="footer" id="footer">
         <div class="footer-container">
                 <div class="row">
                     <div class="footer-col">
