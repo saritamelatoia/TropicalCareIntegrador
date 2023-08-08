@@ -13,21 +13,21 @@
 </head>
 <body>
     <!--Barra de navegación-->
-    <nav>
+    <header class="header">
         <img class="nav__logo" src="./Tropical Care.png" alt="logo"/>
-        <input type="checkbox" id="check">
-        <label for="check" class="bar-btn">
+    <nav class="navbar">
+        <label for="toggle-menu">
             <i class="fa-solid fa-bars"></i>
         </label>
-        <ul class="nav-menu">
-            <li><a class="#hero-image" href="#">Home</a></li>
-            <li><a href="#footer">About Us</a></li>
-            <li><a href="#cards__title">Shop</a></li>
-            <li><a href="login.html">Login</a></li>
+        <input type="checkbox" id="toggle-menu">
+        <ul class="navbar-list">
+            <li><a href="#footer" class="navbar-link">About Us</a></li>
+            <li><a href="#cards__title" class="navbar-link">Shop</a></li>
+            <li><a href="login.html" class="navbar-link">Login</a></li>
         </ul>
 
     </nav>
-
+</header>
 
     <!--Hero imagen-->
     <div class="hero-image" id="hero-image">
