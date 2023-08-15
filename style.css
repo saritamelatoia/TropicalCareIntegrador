@@ -47,21 +47,9 @@
     font-weight: 300;
 }
 
-@media (max-width: 576px) {
-    .navbar ul {
-        background: rgb(255, 255, 255);
-        width: 100%;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        display: block;
-    }
-}
 
-#checkbox-menu {
+
+#toggle-menu {
     display: none;
 }
 
