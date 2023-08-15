@@ -1,1 +1,31 @@
+@media(max-width: 320px) {
+.hero-image {
+    width: 140%;
+    height: 40%;
+}
+.hero-image .hero-text h1 { 
+    font-size: 4vh;
+}
 
+.hero-image .hero-text p {
+    font-size: 3vh;
+}
+}
+
+.cards__title {
+    width: 50vh;
+    margin-left: 20px;
+    margin-top: 4vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150%;
+    margin: auto;
+}
+
+.benefits {
+    width: 2vh;
+}
