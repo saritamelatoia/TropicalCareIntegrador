@@ -1,3 +1,5 @@
+/*CELULAR*/
+
 @media(max-width: 320px) {
 
 .header {
@@ -19,7 +21,6 @@
 
 .hero-image .hero-text p {
     font-size: 11px;
-}
 }
 
 .hero-btn {
@@ -52,7 +53,6 @@
 .card-img {
     width: 100%;
 
-
 }
 
 .benefits {
@@ -62,6 +62,7 @@
 .benefits h1 {
     font-size: 20px;
 }
+}
 
-
+/*TABLET*/
 
