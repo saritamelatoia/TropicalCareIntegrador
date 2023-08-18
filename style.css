@@ -47,13 +47,11 @@
     font-weight: 300;
 }
 
-
-
-#toggle-menu {
+.fa-solid.fa-bars {
     display: none;
 }
 
-.toggle-menu {
+#checkbox-menu {
     display: none;
 }
 

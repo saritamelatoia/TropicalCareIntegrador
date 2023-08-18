@@ -10,18 +10,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
     <!--Barra de navegación-->
     <header class="header">
-        <img class="nav__logo" src="./Tropical Care.png" alt="logo"/>
+        <div class="logo-header">
+            <img class="nav__logo" src="./Tropical Care.png" alt="logo"/>
+        </div>
+        <nav class="navbar">
+        <input type="checkbox" id="checkbox-menu">
         <label for="checkbox-menu" class="toggle-menu">
             <i class="fa-solid fa-bars"></i>
         </label>
-        <input type="checkbox" id="checkbox-menu">
-    <nav class="navbar">
+
         <ul class="navbar-list">
             <li><a href="#footer" class="navbar-link">About Us</a></li>
             <li><a href="#cards__title" class="navbar-link">Shop</a></li>
