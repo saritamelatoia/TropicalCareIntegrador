@@ -301,11 +301,12 @@ padding: 10px;
 }
 
 .benefits h1 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .benefits p {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 }
 
